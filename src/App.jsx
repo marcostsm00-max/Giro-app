@@ -690,6 +690,8 @@ const CSS = `
   --line: #223028;
   --green: #3ddc6f;
   --green-dim: #2a9650;
+  --gold: #DAA520;
+  --gold-dim: #a87a18;
   --text: #eef5f0;
   --text-dim: #8aa396;
   --text-faint: #5c7268;
@@ -763,8 +765,8 @@ const CSS = `
 .hero-foot-value { font-size: 14px; font-weight: 600; }
 .roi-pill {
   display: flex; align-items: center; gap: 4px;
-  background: rgba(61,220,111,0.12);
-  color: var(--green);
+  background: rgba(218,165,32,0.14);
+  color: var(--gold);
   padding: 6px 12px;
   border-radius: 999px;
   font-size: 12px;
@@ -776,7 +778,7 @@ const CSS = `
 .stat-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; }
 .stat-label { font-size: 12px; color: var(--text-dim); font-weight: 600; margin-bottom: 6px; }
 .stat-value { font-size: 22px; font-weight: 800; letter-spacing: -0.01em; font-variant-numeric: tabular-nums; }
-.stat-green { color: var(--green); }
+.stat-green { color: var(--gold); }
 .stat-sub { font-size: 12px; color: var(--text-faint); margin-top: 4px; }
 
 .row-card {
@@ -958,4 +960,3 @@ const CSS = `
 .report-lucro { font-weight: 700; color: var(--green); }
 .report-row-sub { font-size: 12px; color: var(--text-faint); margin-top: 6px; }
 `;
-
